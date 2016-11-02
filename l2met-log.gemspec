@@ -22,7 +22,7 @@ Gem::Specification.new do |spec|
   end
   spec.require_paths = %w(lib)
 
-  spec.add_development_dependency 'bundler', '~> 1.13'
+  spec.add_development_dependency 'bundler', '~> 1'
   spec.add_development_dependency 'pry', '~> 0.10'
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_development_dependency 'rspec', '~> 3'

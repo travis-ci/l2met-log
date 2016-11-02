@@ -17,7 +17,7 @@ require 'l2met-log'
 
 module AllMyStuff
   class ThingDoer
-    include L2metLog
+    include L2met::Log
 
     def doit!
       log msg: 'like wow', did: 'thing', not_did: 'nothing', rad: 9_000
@@ -28,4 +28,5 @@ end
 
 ## License
 
-The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+The gem is available as open source under the terms of the
+[MIT License](http://opensource.org/licenses/MIT).
